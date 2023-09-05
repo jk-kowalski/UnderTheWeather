@@ -1,0 +1,20 @@
+# Author: Kuba
+# Commands to use with twarc1
+
+twarc configure
+
+Submit the following:
+  api_key: ***
+  api_secret_key: ***
+  token: ***
+  token_secret: ***
+
+# To harvest tweets from past 9 days in a 12 mile radius around the center of Amsterdam (coordinates 52.35680,4.88860)
+# Note, selection by start and end time not functional, as such the operators are not used in the command line below
+twarc search --geocode 52.35680,4.88860,12mi > tweets_amsterdam_21-04-2023.json
+
+# To harvest 750 tweets of all SwarmApp users at locations which use a recognizably Dutch name
+twarc search swarmapp --lang nl > tweets_swarm.json
+
+# To harvest 3250 tweets from the timeline of a specific user (ritadear)
+twarc timeline ritadear > tweets_ritadear.json
