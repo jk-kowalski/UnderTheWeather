@@ -1,4 +1,4 @@
-# GRS35306 Social Media 2
+# Under the Weather
 Repository for the project of group Social Media 2 for course GRS-35306 Data Science for Smart Environments.
 
 ---
