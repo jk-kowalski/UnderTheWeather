@@ -26,7 +26,7 @@ In the directory "scripts", the following scripts can be found:
 
 - **08_GetRainyGetDry_functions.R**: This is the script that determined the different weatherconditions and formed the basis for the other R script.
 
-- **09_WeatherType_and_Tweets.R**: This is the script that creates the data on the weather in combination with the 
+- **09_WeatherType_and_Tweets.R**: This is the script that creates the data on the weather types.
 
 
 #### Other files
